@@ -1,0 +1,42 @@
+{
+  "name": "@n3rdw1z4rd/smoke-ui-components",
+  "version": "0.1.0",
+  "description": "Themeable convenience components (Panel, Row, Slider, Checkbox, Vec3Group) for @n3rdw1z4rd/smoke-ui, styled via CSS custom properties.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "smoke-ui",
+    "ui",
+    "components",
+    "theme",
+    "css-variables",
+    "signals"
+  ],
+  "author": "n3rdw1z4rd",
+  "license": "MIT",
+  "peerDependencies": {
+    "@n3rdw1z4rd/smoke-ui": "^0.1.0"
+  },
+  "devDependencies": {
+    "@n3rdw1z4rd/smoke-ui": "^0.1.0",
+    "typescript": "^6.0.3"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true
+  }
+}
