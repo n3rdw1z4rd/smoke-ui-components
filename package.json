@@ -30,10 +30,10 @@
   "author": "n3rdw1z4rd",
   "license": "MIT",
   "peerDependencies": {
-    "@n3rdw1z4rd/smoke-ui": "^0.1.0"
+    "@n3rdw1z4rd/smoke-ui": "^0.2.0"
   },
   "devDependencies": {
-    "@n3rdw1z4rd/smoke-ui": "^0.1.0",
+    "@n3rdw1z4rd/smoke-ui": "^0.2.0",
     "typescript": "^6.0.3"
   },
   "allowScripts": {
