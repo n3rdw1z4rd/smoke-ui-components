@@ -1,6 +1,6 @@
 {
   "name": "@n3rdw1z4rd/smoke-ui-components",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Themeable convenience components (Panel, Row, Slider, Checkbox, Vec3Group) for @n3rdw1z4rd/smoke-ui, styled via CSS custom properties.",
   "type": "module",
   "main": "./dist/index.js",
